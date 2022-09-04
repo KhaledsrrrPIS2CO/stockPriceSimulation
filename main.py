@@ -134,3 +134,5 @@ def gbm_levels(s0, delta, sigma, time, mu, paths):
 price_paths = gbm_levels(s0, delta, sigma, time, mu, paths)
 plt.plot(price_paths, linewidth=0.25)
 plt.show()
+
+print("SPY")
